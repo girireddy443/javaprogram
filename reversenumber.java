@@ -1,5 +1,5 @@
 import java.util.*;
-public class palindrome {
+public class reversenumber{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();  
@@ -9,12 +9,9 @@ public class palindrome {
             reverse=reverse*10+rem;
             n = n / 10;  
         }
-        if(reverse!=n)
-        {
-            System.out.println("palindrome");
-        }
-        else{
-            System.out.println("not palindrome");
-        }
+
+        
+        
+        System.out.println(reverse);
     }
 }
